@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js --exec babel-node --presets es2015",
+    "dev": "nodemon src/server.js --exec babel-node --watch src"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "apollo-server": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "axios": "^0.25.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "firebase": "^9.6.5",
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
