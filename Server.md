@@ -25,7 +25,7 @@ Configuración para desarrollo package.json
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/EBERSHR/virtualccback.git
+git remote add origin https://github.com/EBERSHR/Server.git
 
 Deploy
 sudo snap install --classic heroku
